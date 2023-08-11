@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> NQKFOX Bookstore Platform UwU</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Itim&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c86fcd4886.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://kit.fontawesome.com/c86fcd4886.css" crossorigin="anonymous">
+  </head>
+  <body>
+<section class="sub-header"> 
+    <nav>
+      <a href="index.html"><img src="Images/st,small,507x507-pad,600x600,f8f8f8.jpg" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+              <li> <a href="About.html">About</a></li>
+              <li> <a href="mistery.html">Mistery</a></li>
+              <li> <a href="romance.html">Romance</a></li>
+              <li> <a href="location.html">Our location</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<h1> Where To Find Us!!</h1>
+
+</section>
+
+
+<!-------Contact Us----->
+<section class="location">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.247682910826!2d-96.1118795744722!3d29.91477087498916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86414982bbfe16a3%3A0x678d7056b4e641f!2sCunny%20Lake!5e0!3m2!1sen!2s!4v1675394471264!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <span>
+          <i class="fa-solid fa-house"></i>
+        <h5> Cunny Lake, Texax</h5>
+        <p> Come here and cunny with us</p>
+      </span>
+      </div>
+
+      <div>
+        <span>
+          <i class="fa-solid fa-phone"></i>
+        <h5> +1 0123456789</h5>
+        <p> From Monday to Sunday, 24/7</p>
+      </span>
+      </div>
+
+      <div>
+        <span>
+          <i class="fa-solid fa-envelope"></i>
+        <h5> NQK@NQKFOX.com</h5>
+        <p> Send us your question</p>
+      </span>
+      </div>
+    </div>
+
+    <div class="contact-col">
+
+<form action="form-handler.php" method="post">
+  <input type="text" name="name" placeholder="Enter Your Name" required>
+  <input type="email" name="email" placeholder="Enter Your Email Address" required>
+  <input type="text" name="subject" placeholder="Enter Your Subject" required>
+  <textarea rows="8" name="message" placeholder="Message" required></textarea>
+  <button type="submit" class="hero-tbn red-tbn"> Send Message</button>
+</form>
+
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-------Footer----->
+<section class="footer">
+  <h4 style="color: rgb(0, 0, 0);">Cunny.com</h4>
+        <ul>
+          <hr style="color: rgb(0, 0, 0);">
+          <li>
+            <p>Phone: <a href="tel:69696969" class="color">69696969</a></p>
+          </li>
+          <li>
+            <p>Mail: <a href="mailto: Cunny@cunny.com" class="color">NQK@NQKFOX.com</a></p>
+          </li>
+          <li>
+            <p>Thank you for joining us UwU</p>
+          </li>
+        </ul>
+
+
+
+</section>
+
+
+
+
+
+
+<!----------JavaScript for toggle the MEnu------------>
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+  </body>
+</html>
